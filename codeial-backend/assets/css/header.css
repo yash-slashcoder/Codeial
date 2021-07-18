@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  background-color: lightblue; }
+  .header .header-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0 15px;
+    justify-content: space-between;
+    align-items: center; }
+    .header .header-content h4 {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: 700;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: maroon; }
+    .header .header-content ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row; }
+      .header .header-content ul li {
+        margin-right: 15px;
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: maroon; }
+        .header .header-content ul li a {
+          text-decoration: none;
+          background-color: none;
+          color: inherit; }
